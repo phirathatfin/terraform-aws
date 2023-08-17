@@ -1,24 +1,31 @@
 # terraform-aws
 
-# Initialize
+## Set AWS Credentials
+
+```bash
+export AWS_ACCESS_KEY_ID="key"
+export AWS_SECRET_ACCESS_KEY="key"
+```
+
+## Initialize
 
 ```bash
 terraform init
 ```
 
-# Plan
+## Plan
 
 ```bash
 terraform plan
 ```
 
-# Apply
+## Apply
 
 ```bash
 terraform apply
 ```
 
-# Destroy
+## Destroy
 
 ```bash
 terraform destroy
